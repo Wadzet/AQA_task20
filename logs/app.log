@@ -1,0 +1,11 @@
+2024-12-17 22:56:18 INFO  Task20CalculatorTest.setUp - Initializing driver and launching the app.
+2024-12-17 22:56:24 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with data: input1=10, input2=50, expectedResult=5
+2024-12-17 22:56:31 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-17 22:56:31 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
+2024-12-17 22:56:31 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with data: input1=20, input2=25, expectedResult=5
+2024-12-17 22:56:37 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-17 22:56:37 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
+2024-12-17 22:56:37 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with data: input1=100, input2=10, expectedResult=10
+2024-12-17 22:56:44 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
+2024-12-17 22:56:44 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
+2024-12-17 22:56:44 INFO  Task20CalculatorTest.tearDown - Closing driver.
