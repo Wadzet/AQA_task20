@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Verify percentage calculations.","7647","testPercentageCalculation","Default Suite","Wed Dec 18 20:27:53 EET 2024","passed","Wed Dec 18 20:28:01 EET 2024","task_20.Task20CalculatorTest","AQA_Task20","task_20.Task20CalculatorTest","testPercentageCalculation"
+"Verify percentage calculations.","8362","testPercentageCalculation","Default Suite","Wed Dec 18 20:28:01 EET 2024","passed","Wed Dec 18 20:28:09 EET 2024","task_20.Task20CalculatorTest","AQA_Task20","task_20.Task20CalculatorTest","testPercentageCalculation"
+"Verify percentage calculations.","8540","testPercentageCalculation","Default Suite","Wed Dec 18 20:27:45 EET 2024","passed","Wed Dec 18 20:27:53 EET 2024","task_20.Task20CalculatorTest","AQA_Task20","task_20.Task20CalculatorTest","testPercentageCalculation"

@@ -1,158 +1,400 @@
-2024-12-17 22:56:18 INFO  Task20CalculatorTest.setUp - Initializing driver and launching the app.
-2024-12-17 22:56:24 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with data: input1=10, input2=50, expectedResult=5
-2024-12-17 22:56:31 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
-2024-12-17 22:56:31 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
-2024-12-17 22:56:31 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with data: input1=20, input2=25, expectedResult=5
-2024-12-17 22:56:37 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
-2024-12-17 22:56:37 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
-2024-12-17 22:56:37 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with data: input1=100, input2=10, expectedResult=10
-2024-12-17 22:56:44 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
-2024-12-17 22:56:44 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
-2024-12-17 22:56:44 INFO  Task20CalculatorTest.tearDown - Closing driver.
-2024-12-18 15:51:52 INFO  AllureListener.onStart - Starting test suite: AQA_Task20
-2024-12-18 15:51:52 INFO  Task20CalculatorTest.setUp - Initializing driver.
-2024-12-18 15:52:02 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 15:52:02 WARN  AllureListener.onTestSkipped - Test skipped: testPercentageCalculation
-2024-12-18 15:52:04 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 15:52:04 WARN  AllureListener.onTestSkipped - Test skipped: testPercentageCalculation
-2024-12-18 15:52:06 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 15:52:06 WARN  AllureListener.onTestSkipped - Test skipped: testPercentageCalculation
-2024-12-18 15:52:08 INFO  AllureListener.onFinish - Finished test suite: AQA_Task20
-2024-12-18 16:00:54 INFO  AllureListener.onStart - Starting test suite: AQA_Task20
-2024-12-18 16:00:54 INFO  Task20CalculatorTest.setUp - Initializing driver.
-2024-12-18 16:01:02 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:01:02 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
-2024-12-18 16:01:02 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
-2024-12-18 16:01:02 INFO  CalculatorPO.enterNumber - Entering number: 10
-2024-12-18 16:01:03 INFO  CalculatorPO.pressPercentage - Pressing percentage button
-2024-12-18 16:01:04 INFO  CalculatorPO.enterNumber - Entering number: 50
-2024-12-18 16:01:06 INFO  CalculatorPO.pressEquals - Pressing equals button
-2024-12-18 16:01:07 INFO  CalculatorPO.getResult - Getting result
-2024-12-18 16:01:07 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
-2024-12-18 16:01:09 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
-2024-12-18 16:01:09 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
-2024-12-18 16:01:09 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
-2024-12-18 16:01:11 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:01:11 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
-2024-12-18 16:01:11 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
-2024-12-18 16:01:11 INFO  CalculatorPO.enterNumber - Entering number: 20
-2024-12-18 16:01:12 INFO  CalculatorPO.pressPercentage - Pressing percentage button
-2024-12-18 16:01:13 INFO  CalculatorPO.enterNumber - Entering number: 25
-2024-12-18 16:01:14 INFO  CalculatorPO.pressEquals - Pressing equals button
-2024-12-18 16:01:15 INFO  CalculatorPO.getResult - Getting result
-2024-12-18 16:01:16 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
-2024-12-18 16:01:17 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
-2024-12-18 16:01:17 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
-2024-12-18 16:01:17 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
-2024-12-18 16:01:18 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:01:18 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
-2024-12-18 16:01:18 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
-2024-12-18 16:01:18 INFO  CalculatorPO.enterNumber - Entering number: 100
-2024-12-18 16:01:21 INFO  CalculatorPO.pressPercentage - Pressing percentage button
-2024-12-18 16:01:22 INFO  CalculatorPO.enterNumber - Entering number: 10
-2024-12-18 16:01:23 INFO  CalculatorPO.pressEquals - Pressing equals button
-2024-12-18 16:01:24 INFO  CalculatorPO.getResult - Getting result
-2024-12-18 16:01:25 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
-2024-12-18 16:01:26 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
-2024-12-18 16:01:26 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
-2024-12-18 16:01:26 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
-2024-12-18 16:01:27 INFO  Task20CalculatorTest.tearDown - Closing driver.
-2024-12-18 16:01:28 INFO  AllureListener.onFinish - Finished test suite: AQA_Task20
-2024-12-18 16:12:54 INFO  AllureListener.onStart - Starting test suite: AQA_Task20
-2024-12-18 16:12:54 INFO  Task20CalculatorTest.setUp - Initializing driver.
-2024-12-18 16:13:02 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:13:02 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
-2024-12-18 16:13:02 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
-2024-12-18 16:13:02 INFO  CalculatorPO.enterNumber - Entering number: 10
-2024-12-18 16:13:03 INFO  CalculatorPO.pressPercentage - Pressing percentage button
-2024-12-18 16:13:04 INFO  CalculatorPO.enterNumber - Entering number: 50
-2024-12-18 16:13:05 INFO  CalculatorPO.pressEquals - Pressing equals button
-2024-12-18 16:13:07 INFO  CalculatorPO.getResult - Getting result
-2024-12-18 16:13:07 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
-2024-12-18 16:13:08 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
-2024-12-18 16:13:08 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
-2024-12-18 16:13:08 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
-2024-12-18 16:13:10 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:13:10 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
-2024-12-18 16:13:10 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
-2024-12-18 16:13:10 INFO  CalculatorPO.enterNumber - Entering number: 20
-2024-12-18 16:13:11 INFO  CalculatorPO.pressPercentage - Pressing percentage button
-2024-12-18 16:13:12 INFO  CalculatorPO.enterNumber - Entering number: 25
-2024-12-18 16:13:14 INFO  CalculatorPO.pressEquals - Pressing equals button
-2024-12-18 16:13:15 INFO  CalculatorPO.getResult - Getting result
-2024-12-18 16:13:15 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
-2024-12-18 16:13:16 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
-2024-12-18 16:13:16 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
-2024-12-18 16:13:16 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
-2024-12-18 16:13:18 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:13:18 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
-2024-12-18 16:13:18 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
-2024-12-18 16:13:18 INFO  CalculatorPO.enterNumber - Entering number: 100
-2024-12-18 16:13:20 INFO  CalculatorPO.pressPercentage - Pressing percentage button
-2024-12-18 16:13:21 INFO  CalculatorPO.enterNumber - Entering number: 10
-2024-12-18 16:13:22 INFO  CalculatorPO.pressEquals - Pressing equals button
-2024-12-18 16:13:24 INFO  CalculatorPO.getResult - Getting result
-2024-12-18 16:13:24 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
-2024-12-18 16:13:25 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
-2024-12-18 16:13:25 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
-2024-12-18 16:13:25 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
-2024-12-18 16:13:26 INFO  Task20CalculatorTest.tearDown - Closing driver.
-2024-12-18 16:13:27 INFO  AllureListener.onFinish - Finished test suite: AQA_Task20
-2024-12-18 16:14:05 INFO  AllureListener.onStart - Starting test suite: AQA_Task20
-2024-12-18 16:14:05 INFO  Task20CalculatorTest.setUp - Initializing driver.
-2024-12-18 16:14:13 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:14:13 WARN  AllureListener.onTestSkipped - Test skipped: testPercentageCalculation
-2024-12-18 16:14:15 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:14:15 WARN  AllureListener.onTestSkipped - Test skipped: testPercentageCalculation
-2024-12-18 16:14:16 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:14:16 WARN  AllureListener.onTestSkipped - Test skipped: testPercentageCalculation
-2024-12-18 16:14:18 INFO  AllureListener.onFinish - Finished test suite: AQA_Task20
-2024-12-18 16:18:37 INFO  AllureListener.onStart - Starting test suite: AQA_Task20
-2024-12-18 16:18:37 INFO  Task20CalculatorTest.setUp - Initializing driver.
-2024-12-18 16:18:46 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:18:46 WARN  AllureListener.onTestSkipped - Test skipped: testPercentageCalculation
-2024-12-18 16:18:48 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:18:48 WARN  AllureListener.onTestSkipped - Test skipped: testPercentageCalculation
-2024-12-18 16:18:50 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:18:50 WARN  AllureListener.onTestSkipped - Test skipped: testPercentageCalculation
-2024-12-18 16:18:52 INFO  AllureListener.onFinish - Finished test suite: AQA_Task20
-2024-12-18 16:20:16 INFO  AllureListener.onStart - Starting test suite: AQA_Task20
-2024-12-18 16:20:16 INFO  Task20CalculatorTest.setUp - Initializing driver.
-2024-12-18 16:20:25 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:20:25 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
-2024-12-18 16:20:25 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
-2024-12-18 16:20:25 INFO  CalculatorPO.enterNumber - Entering number: 10
-2024-12-18 16:20:26 INFO  CalculatorPO.pressPercentage - Pressing percentage button
-2024-12-18 16:20:26 INFO  CalculatorPO.enterNumber - Entering number: 50
-2024-12-18 16:20:29 INFO  CalculatorPO.pressEquals - Pressing equals button
-2024-12-18 16:20:29 INFO  CalculatorPO.getResult - Getting result
-2024-12-18 16:20:30 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
-2024-12-18 16:20:31 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
-2024-12-18 16:20:31 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
-2024-12-18 16:20:31 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
-2024-12-18 16:20:33 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:20:33 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
-2024-12-18 16:20:33 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
-2024-12-18 16:20:33 INFO  CalculatorPO.enterNumber - Entering number: 20
-2024-12-18 16:20:35 INFO  CalculatorPO.pressPercentage - Pressing percentage button
-2024-12-18 16:20:35 INFO  CalculatorPO.enterNumber - Entering number: 25
-2024-12-18 16:20:36 INFO  CalculatorPO.pressEquals - Pressing equals button
-2024-12-18 16:20:38 INFO  CalculatorPO.getResult - Getting result
-2024-12-18 16:20:38 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
-2024-12-18 16:20:39 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
-2024-12-18 16:20:39 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
-2024-12-18 16:20:39 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
-2024-12-18 16:20:41 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
-2024-12-18 16:20:41 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
-2024-12-18 16:20:41 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
-2024-12-18 16:20:41 INFO  CalculatorPO.enterNumber - Entering number: 100
-2024-12-18 16:20:43 INFO  CalculatorPO.pressPercentage - Pressing percentage button
-2024-12-18 16:20:43 INFO  CalculatorPO.enterNumber - Entering number: 10
-2024-12-18 16:20:45 INFO  CalculatorPO.pressEquals - Pressing equals button
-2024-12-18 16:20:46 INFO  CalculatorPO.getResult - Getting result
-2024-12-18 16:20:46 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
-2024-12-18 16:20:48 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
-2024-12-18 16:20:48 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
-2024-12-18 16:20:48 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
-2024-12-18 16:20:49 INFO  Task20CalculatorTest.tearDown - Closing driver.
-2024-12-18 16:20:50 INFO  AllureListener.onFinish - Finished test suite: AQA_Task20
+2024-12-18 19:42:03 INFO  AllureListener.onStart - Starting test suite: AQA_Task20
+2024-12-18 19:42:03 INFO  Task20CalculatorTest.setUp - Initializing driver.
+2024-12-18 19:42:09 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 19:42:09 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
+2024-12-18 19:42:09 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
+2024-12-18 19:42:09 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 19:42:11 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 19:42:11 INFO  CalculatorPO.enterNumber - Entering number: 50
+2024-12-18 19:42:13 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 19:42:14 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 19:42:14 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 19:42:16 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 19:42:16 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
+2024-12-18 19:42:16 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 19:42:18 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 19:42:18 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
+2024-12-18 19:42:18 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
+2024-12-18 19:42:18 INFO  CalculatorPO.enterNumber - Entering number: 20
+2024-12-18 19:42:19 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 19:42:19 INFO  CalculatorPO.enterNumber - Entering number: 25
+2024-12-18 19:42:21 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 19:42:23 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 19:42:23 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 19:42:24 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 19:42:24 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
+2024-12-18 19:42:24 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 19:42:26 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 19:42:26 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
+2024-12-18 19:42:26 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
+2024-12-18 19:42:26 INFO  CalculatorPO.enterNumber - Entering number: 100
+2024-12-18 19:42:28 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 19:42:29 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 19:42:30 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 19:42:31 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 19:42:32 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
+2024-12-18 19:42:33 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
+2024-12-18 19:42:33 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
+2024-12-18 19:42:33 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 19:42:34 INFO  Task20CalculatorTest.tearDown - Closing driver.
+2024-12-18 19:42:35 INFO  AllureListener.onFinish - Finished test suite: AQA_Task20
+2024-12-18 19:50:26 INFO  AllureListener.onStart - Starting test suite: AQA_Task20
+2024-12-18 19:50:26 INFO  Task20CalculatorTest.setUp - Initializing driver.
+2024-12-18 19:50:33 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 19:50:33 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
+2024-12-18 19:50:33 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
+2024-12-18 19:50:33 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 19:50:34 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 19:50:35 INFO  CalculatorPO.enterNumber - Entering number: 50
+2024-12-18 19:50:37 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 19:50:38 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 19:50:38 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 19:50:39 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 19:50:39 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
+2024-12-18 19:50:39 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 19:50:41 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 19:50:41 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
+2024-12-18 19:50:41 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
+2024-12-18 19:50:41 INFO  CalculatorPO.enterNumber - Entering number: 20
+2024-12-18 19:50:43 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 19:50:43 INFO  CalculatorPO.enterNumber - Entering number: 25
+2024-12-18 19:50:45 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 19:50:46 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 19:50:46 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 19:50:47 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 19:50:47 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
+2024-12-18 19:50:47 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 19:50:49 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 19:50:49 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
+2024-12-18 19:50:49 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
+2024-12-18 19:50:49 INFO  CalculatorPO.enterNumber - Entering number: 100
+2024-12-18 19:50:51 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 19:50:51 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 19:50:54 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 19:50:55 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 19:50:55 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
+2024-12-18 19:50:56 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
+2024-12-18 19:50:56 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
+2024-12-18 19:50:56 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 19:50:57 INFO  Task20CalculatorTest.tearDown - Closing driver.
+2024-12-18 19:50:58 INFO  AllureListener.onFinish - Finished test suite: AQA_Task20
+2024-12-18 19:55:04 INFO  AllureListener.onStart - Starting test suite: Surefire test
+2024-12-18 19:55:04 INFO  Task20CalculatorTest.setUp - Initializing driver.
+2024-12-18 19:55:10 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 19:55:10 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
+2024-12-18 19:55:10 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
+2024-12-18 19:55:10 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 19:55:11 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 19:55:12 INFO  CalculatorPO.enterNumber - Entering number: 50
+2024-12-18 19:55:13 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 19:55:15 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 19:55:15 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 19:55:17 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 19:55:17 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
+2024-12-18 19:55:17 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 19:55:18 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 19:55:18 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
+2024-12-18 19:55:18 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
+2024-12-18 19:55:18 INFO  CalculatorPO.enterNumber - Entering number: 20
+2024-12-18 19:55:20 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 19:55:20 INFO  CalculatorPO.enterNumber - Entering number: 25
+2024-12-18 19:55:22 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 19:55:23 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 19:55:23 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 19:55:24 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 19:55:24 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
+2024-12-18 19:55:24 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 19:55:26 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 19:55:26 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
+2024-12-18 19:55:26 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
+2024-12-18 19:55:26 INFO  CalculatorPO.enterNumber - Entering number: 100
+2024-12-18 19:55:28 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 19:55:29 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 19:55:30 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 19:55:32 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 19:55:32 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
+2024-12-18 19:55:33 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
+2024-12-18 19:55:33 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
+2024-12-18 19:55:33 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 19:55:34 INFO  Task20CalculatorTest.tearDown - Closing driver.
+2024-12-18 19:55:35 INFO  AllureListener.onFinish - Finished test suite: Surefire test
+2024-12-18 19:59:58 INFO  AllureListener.onStart - Starting test suite: Surefire test
+2024-12-18 19:59:58 INFO  Task20CalculatorTest.setUp - Initializing driver.
+2024-12-18 20:00:04 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:00:04 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
+2024-12-18 20:00:04 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
+2024-12-18 20:00:04 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:00:06 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:00:06 INFO  CalculatorPO.enterNumber - Entering number: 50
+2024-12-18 20:00:08 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:00:09 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:00:09 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:00:11 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:00:11 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
+2024-12-18 20:00:11 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:00:13 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:00:13 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
+2024-12-18 20:00:13 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
+2024-12-18 20:00:13 INFO  CalculatorPO.enterNumber - Entering number: 20
+2024-12-18 20:00:14 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:00:14 INFO  CalculatorPO.enterNumber - Entering number: 25
+2024-12-18 20:00:16 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:00:17 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:00:18 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:00:19 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:00:19 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
+2024-12-18 20:00:19 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:00:20 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:00:20 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
+2024-12-18 20:00:20 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
+2024-12-18 20:00:20 INFO  CalculatorPO.enterNumber - Entering number: 100
+2024-12-18 20:00:22 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:00:23 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:00:25 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:00:26 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:00:26 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
+2024-12-18 20:00:27 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
+2024-12-18 20:00:27 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
+2024-12-18 20:00:27 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:00:29 INFO  Task20CalculatorTest.tearDown - Closing driver.
+2024-12-18 20:00:29 INFO  AllureListener.onFinish - Finished test suite: Surefire test
+2024-12-18 20:05:12 INFO  AllureListener.onStart - Starting test suite: Percentage Calculation Test
+2024-12-18 20:05:12 INFO  Task20CalculatorTest.setUp - Initializing driver.
+2024-12-18 20:05:18 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:05:18 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
+2024-12-18 20:05:18 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
+2024-12-18 20:05:18 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:05:19 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:05:20 INFO  CalculatorPO.enterNumber - Entering number: 50
+2024-12-18 20:05:22 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:05:23 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:05:23 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:05:25 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:05:25 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
+2024-12-18 20:05:25 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:05:27 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:05:27 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
+2024-12-18 20:05:27 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
+2024-12-18 20:05:27 INFO  CalculatorPO.enterNumber - Entering number: 20
+2024-12-18 20:05:28 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:05:28 INFO  CalculatorPO.enterNumber - Entering number: 25
+2024-12-18 20:05:30 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:05:31 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:05:31 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:05:33 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:05:33 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
+2024-12-18 20:05:33 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:05:34 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:05:35 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
+2024-12-18 20:05:35 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
+2024-12-18 20:05:35 INFO  CalculatorPO.enterNumber - Entering number: 100
+2024-12-18 20:05:36 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:05:38 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:05:39 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:05:40 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:05:40 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
+2024-12-18 20:05:41 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
+2024-12-18 20:05:41 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
+2024-12-18 20:05:41 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:05:43 INFO  Task20CalculatorTest.tearDown - Closing driver.
+2024-12-18 20:05:43 INFO  AllureListener.onFinish - Finished test suite: Percentage Calculation Test
+2024-12-18 20:06:23 INFO  AllureListener.onStart - Starting test suite: AQA_Task20
+2024-12-18 20:06:23 INFO  Task20CalculatorTest.setUp - Initializing driver.
+2024-12-18 20:06:30 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:06:30 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
+2024-12-18 20:06:30 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
+2024-12-18 20:06:30 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:06:31 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:06:32 INFO  CalculatorPO.enterNumber - Entering number: 50
+2024-12-18 20:06:33 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:06:35 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:06:35 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:06:36 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:06:36 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
+2024-12-18 20:06:36 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:06:38 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:06:38 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
+2024-12-18 20:06:38 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
+2024-12-18 20:06:38 INFO  CalculatorPO.enterNumber - Entering number: 20
+2024-12-18 20:06:40 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:06:40 INFO  CalculatorPO.enterNumber - Entering number: 25
+2024-12-18 20:06:41 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:06:43 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:06:43 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:06:44 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:06:44 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
+2024-12-18 20:06:44 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:06:46 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:06:46 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
+2024-12-18 20:06:46 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
+2024-12-18 20:06:46 INFO  CalculatorPO.enterNumber - Entering number: 100
+2024-12-18 20:06:48 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:06:49 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:06:50 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:06:51 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:06:51 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
+2024-12-18 20:06:53 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
+2024-12-18 20:06:53 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
+2024-12-18 20:06:53 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:06:54 INFO  Task20CalculatorTest.tearDown - Closing driver.
+2024-12-18 20:06:55 INFO  AllureListener.onFinish - Finished test suite: AQA_Task20
+2024-12-18 20:12:26 INFO  AllureListener.onStart - Starting test suite: AQA_Task20
+2024-12-18 20:12:26 INFO  Task20CalculatorTest.setUp - Initializing driver.
+2024-12-18 20:12:32 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:12:32 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
+2024-12-18 20:12:32 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
+2024-12-18 20:12:32 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:12:33 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:12:34 INFO  CalculatorPO.enterNumber - Entering number: 50
+2024-12-18 20:12:36 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:12:37 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:12:38 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:12:39 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:12:39 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
+2024-12-18 20:12:39 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:12:41 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:12:41 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
+2024-12-18 20:12:41 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
+2024-12-18 20:12:41 INFO  CalculatorPO.enterNumber - Entering number: 20
+2024-12-18 20:12:43 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:12:44 INFO  CalculatorPO.enterNumber - Entering number: 25
+2024-12-18 20:12:45 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:12:46 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:12:46 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:12:48 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:12:48 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
+2024-12-18 20:12:48 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:12:49 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:12:49 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
+2024-12-18 20:12:49 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
+2024-12-18 20:12:49 INFO  CalculatorPO.enterNumber - Entering number: 100
+2024-12-18 20:12:51 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:12:52 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:12:53 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:12:55 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:12:55 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
+2024-12-18 20:12:56 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
+2024-12-18 20:12:56 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
+2024-12-18 20:12:56 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:12:58 INFO  Task20CalculatorTest.tearDown - Closing driver.
+2024-12-18 20:12:58 INFO  AllureListener.onFinish - Finished test suite: AQA_Task20
+2024-12-18 20:14:26 INFO  AllureListener.onStart - Starting test suite: Surefire test
+2024-12-18 20:14:26 INFO  Task20CalculatorTest.setUp - Initializing driver.
+2024-12-18 20:14:33 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:14:33 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
+2024-12-18 20:14:33 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
+2024-12-18 20:14:33 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:14:34 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:14:35 INFO  CalculatorPO.enterNumber - Entering number: 50
+2024-12-18 20:14:37 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:14:38 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:14:38 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:14:39 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:14:39 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
+2024-12-18 20:14:39 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:14:41 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:14:41 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
+2024-12-18 20:14:41 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
+2024-12-18 20:14:41 INFO  CalculatorPO.enterNumber - Entering number: 20
+2024-12-18 20:14:42 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:14:43 INFO  CalculatorPO.enterNumber - Entering number: 25
+2024-12-18 20:14:45 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:14:46 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:14:46 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:14:47 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:14:47 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
+2024-12-18 20:14:47 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:14:48 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:14:48 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
+2024-12-18 20:14:48 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
+2024-12-18 20:14:48 INFO  CalculatorPO.enterNumber - Entering number: 100
+2024-12-18 20:14:50 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:14:51 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:14:53 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:14:54 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:14:54 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
+2024-12-18 20:14:55 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
+2024-12-18 20:14:55 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
+2024-12-18 20:14:55 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:14:57 INFO  Task20CalculatorTest.tearDown - Closing driver.
+2024-12-18 20:14:57 INFO  AllureListener.onFinish - Finished test suite: Surefire test
+2024-12-18 20:27:38 INFO  AllureListener.onStart - Starting test suite: AQA_Task20
+2024-12-18 20:27:38 INFO  Task20CalculatorTest.setUp - Initializing driver.
+2024-12-18 20:27:45 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:27:45 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
+2024-12-18 20:27:45 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
+2024-12-18 20:27:45 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:27:46 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:27:47 INFO  CalculatorPO.enterNumber - Entering number: 50
+2024-12-18 20:27:48 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:27:50 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:27:50 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:27:52 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:27:52 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
+2024-12-18 20:27:53 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:27:53 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:27:53 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
+2024-12-18 20:27:53 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
+2024-12-18 20:27:53 INFO  CalculatorPO.enterNumber - Entering number: 20
+2024-12-18 20:27:55 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:27:55 INFO  CalculatorPO.enterNumber - Entering number: 25
+2024-12-18 20:27:57 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:27:58 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:27:58 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:28:00 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:28:00 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
+2024-12-18 20:28:01 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:28:01 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:28:01 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
+2024-12-18 20:28:01 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
+2024-12-18 20:28:01 INFO  CalculatorPO.enterNumber - Entering number: 100
+2024-12-18 20:28:03 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:28:04 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:28:06 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:28:07 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:28:07 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
+2024-12-18 20:28:08 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
+2024-12-18 20:28:08 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
+2024-12-18 20:28:09 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:28:09 INFO  Task20CalculatorTest.tearDown - Closing driver.
+2024-12-18 20:28:10 INFO  AllureListener.onFinish - Finished test suite: AQA_Task20
+2024-12-18 20:36:46 INFO  AllureListener.onStart - Starting test suite: Surefire test
+2024-12-18 20:36:46 INFO  Task20CalculatorTest.setUp - Initializing driver.
+2024-12-18 20:36:52 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:36:52 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=10, input2=50, expectedResult=5
+2024-12-18 20:36:52 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 10% of 50
+2024-12-18 20:36:52 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:36:54 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:36:54 INFO  CalculatorPO.enterNumber - Entering number: 50
+2024-12-18 20:36:56 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:36:57 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:36:57 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:36:59 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:36:59 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 10, 50
+2024-12-18 20:37:01 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:37:01 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:37:01 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=20, input2=25, expectedResult=5
+2024-12-18 20:37:01 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 20% of 25
+2024-12-18 20:37:01 INFO  CalculatorPO.enterNumber - Entering number: 20
+2024-12-18 20:37:02 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:37:02 INFO  CalculatorPO.enterNumber - Entering number: 25
+2024-12-18 20:37:04 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:37:06 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:37:06 INFO  CalculatorBO.calculatePercentage - Result: 5 Результат обчислення
+2024-12-18 20:37:07 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 5
+2024-12-18 20:37:07 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 20, 25
+2024-12-18 20:37:08 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:37:08 INFO  AllureListener.onTestStart - Starting test: testPercentageCalculation
+2024-12-18 20:37:08 INFO  Task20CalculatorTest.testPercentageCalculation - Starting test with input1=100, input2=10, expectedResult=10
+2024-12-18 20:37:08 INFO  CalculatorBO.calculatePercentage - Calculating percentage: 100% of 10
+2024-12-18 20:37:08 INFO  CalculatorPO.enterNumber - Entering number: 100
+2024-12-18 20:37:10 INFO  CalculatorPO.pressPercentage - Pressing percentage button
+2024-12-18 20:37:12 INFO  CalculatorPO.enterNumber - Entering number: 10
+2024-12-18 20:37:13 INFO  CalculatorPO.pressEquals - Pressing equals button
+2024-12-18 20:37:14 INFO  CalculatorPO.getResult - Getting result
+2024-12-18 20:37:14 INFO  CalculatorBO.calculatePercentage - Result: 10 Результат обчислення
+2024-12-18 20:37:16 INFO  Task20CalculatorTest.testPercentageCalculation - Actual result: 10
+2024-12-18 20:37:16 INFO  Task20CalculatorTest.testPercentageCalculation - Test passed successfully for input data: 100, 10
+2024-12-18 20:37:17 INFO  AllureListener.onTestSuccess - Test passed: testPercentageCalculation
+2024-12-18 20:37:17 INFO  Task20CalculatorTest.tearDown - Closing driver.
+2024-12-18 20:37:18 INFO  AllureListener.onFinish - Finished test suite: Surefire test
